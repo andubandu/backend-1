@@ -1,1 +1,1 @@
-This is some sample text inside data.txt.
+no more hello world

@@ -21,4 +21,16 @@ async function listFilesAndFolders() {
     }
 }
 
+async function readRandomFiles() {
+    try {
+        const randomFile1Content = await fs.readFile('./random1/randomFile1.txt', 'utf8');
+        const randomFile2Content = await fs.readFile('./random2/randomFile2.txt', 'utf8');
+        console.log('Content of randomFile1.txt:', randomFile1Content);
+        console.log('Content of randomFile2.txt:', randomFile2Content);
+    } catch (err) {
+        console.error('Error reading random files:', err);
+    }
+}
+
 listFilesAndFolders();
+readRandomFiles(); 

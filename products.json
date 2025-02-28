@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Iphone 13",
+        "price": 2000,
+        "color": "red"
+    },
+    {
+        "name": "Google Pixel 6",
+        "price": 1700,
+        "color": "white"
+    },
+    {
+        "name": "OnePlus Nord",
+        "price": 400,
+        "color": "blue"
+    },
+    {
+        "name": "Xiaomi Redmi Note 10",
+        "price": 300,
+        "color": "green"
+    }
+
+]
